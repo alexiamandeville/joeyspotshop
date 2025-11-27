@@ -5,10 +5,25 @@ body{font-family:Arial;} .container{width:90%;max-width:1000px;margin:auto;}
   text-align: center;
 }
 
+/* Center the header container */
+.site-header .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Remove default h1 spacing */
+.logo-container {
+  margin: 0;
+  padding: 0;
+}
+
+/* Center and size the logo */
 .logo {
-  max-width: 200px;   /* adjust size as needed */
+  max-width: 230px;
   width: 100%;
   height: auto;
-  display: inline-block;
+  display: block;
+  margin: 0 auto;
 }
 
