@@ -27,3 +27,17 @@ body{font-family:Arial;} .container{width:90%;max-width:1000px;margin:auto;}
   margin: 0 auto;
 }
 
+/* Banner styling */
+.banner {
+  width: 100%;
+  margin: 20px 0 40px; /* space above/below — adjust if needed */
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+
